@@ -1,0 +1,12 @@
+---
+micronaut:
+    application:
+        name: products
+jackson:
+    module-scan: false
+---
+micronaut:
+  io:
+    watch:
+      paths: src/main
+      restart: true
